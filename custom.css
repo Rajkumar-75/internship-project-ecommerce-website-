@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.font-family {
+    font-family: "Playfair Display";
+    font-style: italic;
+}
+
+
+.btng {
+    background-color: transparent;
+    border: 0;
+}
+
+.text {
+    color: black;
+}
+
+.header-icons {
+    
+        height: 45px;
+        width: 45px;
+        border-radius: 100%;
+        color:#D9BF8F ;
+        border: 3px solid #D9BF8F ;
+        display: inline-block;
+        padding-top: 7px;
+    
+}
+
+.handpicked {
+    font-size: 30px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Playfair Display";
+
+}
+.cdbtn{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+
+.overflow {
+    overflow: hidden;
+}
+
+.offercircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #feab12;
+}
+
+.rectangle {
+    width: 150px;
+    height: 44px;
+    border-radius: 44px;
+    background-color: #f0975c;
+}
+
+.persons {
+    margin-top: 243px !important;
+}
+
+.cart {
+    margin-top: 186px !important;
+}
+
+.font {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Playfair Display";
+}
+
+.banner-box{
+    position: absolute;
+     top:90px !important;
+      left:520px !important;
+      background-color: transparent;
+}
+
+
+.footer-icon {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: inline-block;
+    padding-top: 15px;
+}
+@media screen and (max-width: 1199px) {
+
+    .banner-box{
+        position: absolute;
+         top:90px !important;
+          left:520px !important;
+          background-color: transparent;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .banner-box{
+        position: absolute;
+         top:90px;
+          left:410px !important;
+          background-color: transparent;
+    }
+    /* orange color */
+    .cart {
+        margin-top:132px !important; 
+    }
+    /* black color */
+    .persons {
+        margin-top:193px !important;
+    }
+
+   
+}  
+
+  @media screen and (max-width: 768px) {
+
+    .banner-box{
+        position: absolute;
+         top:90px;
+          left:300px !important;
+          background-color: transparent;
+    }
+    /* orange color */
+    .cart {
+        margin-top:270px !important; 
+    }
+    /* black color */
+    .persons {
+        margin-top:330px !important;
+    }
+
+   
+}  
+
+@media screen and (max-width: 576px) {
+
+    .banner-box{
+        position: absolute;
+         top:90px !important;
+          left:210px !important;
+          background-color: transparent;
+    }
+    .cart {
+        margin-top:482px !important;
+    }
+    .persons {
+        margin-top:539px !important;
+    }
+    .food{
+        text-align: center;
+    }
+    .summer{
+        text-align: center;
+    }
+   
+   
+}  
